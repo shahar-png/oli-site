@@ -1,5 +1,5 @@
-# Keep the unlisted alpha page out of search engines.
-# Deliberately NOT done via robots.txt — a Disallow rule would publish the
-# secret path to anyone who reads /robots.txt. An HTTP header reveals nothing.
-/alpha-09513dd609/*
+# Keep the alpha page out of search engines.
+# Deliberately NOT done via robots.txt — a Disallow rule there would advertise
+# the path to anyone who reads /robots.txt. An HTTP header does not.
+/alpha/*
   X-Robots-Tag: noindex, nofollow, noarchive, nosnippet
